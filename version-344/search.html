@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>搜索-精选影片合集</title>
+  <meta name="description" content="在精选影片合集内搜索影片标题、地区、类型、标签和简介。" />
+  <meta name="keywords" content="搜索,影片检索,片库搜索,精选影片合集" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  
+</head>
+<body data-page="search">
+  
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <span class="brand-mark">精选</span>
+      <span class="brand-text">
+        <strong>精选影片合集</strong>
+        <small>高清影视片库</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>☰</button>
+    <nav class="site-nav" data-site-nav>
+      <a class="" href="index.html">首页</a>
+      <a class="" href="categories.html">分类总览</a>
+      <a class="" href="ranking.html">排行榜</a>
+      <a class="active" href="search.html">搜索</a>
+      <a class="" href="about.html">关于本站</a>
+    </nav>
+    <form class="nav-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型、标签" />
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+
+  <main>
+    
+<div class="container page-shell">
+  <div class="breadcrumb"><a href="index.html">首页</a><span>›</span><span>搜索</span></div>
+  <div class="search-panel">
+    <div class="section-head">
+      <div>
+        <h1 style="margin:0; font-size:2rem;">搜索影片</h1>
+        <p>支持按标题、地区、类型、标签、简介和分类联动检索。</p>
+      </div>
+      <div class="badge" data-search-count>2000 部影片</div>
+    </div>
+    <form class="search-tools" data-search-form>
+      <div class="search-input-wrap" style="display:grid;grid-template-columns:1fr auto auto auto auto;gap:12px;width:100%;">
+        <input type="search" placeholder="输入关键词，如 悬疑 / 香港 / 2024 / 爱情" data-search-input />
+        <select data-category-filter>
+          <option value="">全部分类</option>
+          <option value="action">动作冒险</option><option value="suspense">悬疑惊悚</option><option value="love">爱情家庭</option><option value="comedy">喜剧轻松</option><option value="sci-fi">科幻奇幻</option><option value="drama">剧情文艺</option><option value="crime">犯罪战争</option><option value="history">古装历史</option><option value="youth">青春励志</option><option value="anime">动画综艺</option>
+        </select>
+        <select data-type-filter>
+          <option value="">全部类型</option>
+          <option value="电影">电影</option>
+          <option value="剧集">剧集</option>
+          <option value="电视剧">电视剧</option>
+          <option value="动画">动画</option>
+          <option value="综艺">综艺</option>
+          <option value="纪录片">纪录片</option>
+        </select>
+        <select data-year-filter>
+          <option value="">全部年份</option>
+          <option value="0">0</option>
+        </select>
+        <button class="btn btn-primary" type="submit">搜索</button>
+      </div>
+    </form>
+  </div>
+  <section class="section">
+    <div class="search-results" data-search-results></div>
+  </section>
+</div>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <strong>精选影片合集</strong>
+        <span>高清影视片库 · 高清影片在线观看</span>
+      </div>
+      <p>整理精选影片合集栏目内容，包含热门、经典、高分方向的影视片库页面。</p>
+    </div>
+    <div>
+      <h4>影片分类</h4>
+      <div class="footer-links"><a href="category-action.html">动作冒险</a><a href="category-suspense.html">悬疑惊悚</a><a href="category-love.html">爱情家庭</a><a href="category-comedy.html">喜剧轻松</a><a href="category-sci-fi.html">科幻奇幻</a><a href="category-drama.html">剧情文艺</a><a href="category-crime.html">犯罪战争</a><a href="category-history.html">古装历史</a><a href="category-youth.html">青春励志</a><a href="category-anime.html">动画综艺</a></div>
+    </div>
+    <div>
+      <h4>站点导航</h4>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+        <a href="about.html">关于本站</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 精选影片合集</span>
+    <span>静态 HTML / CSS / JS 构建</span>
+  </div>
+</footer>
+
+  <script type="module" src="assets/site.js"></script>
+  <script src="assets/movies.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement('script');
+  hm.src = 'https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

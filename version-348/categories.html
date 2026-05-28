@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta name="robots" content="index,follow">
+  <title>电影分类总览-热播电影</title>
+  <meta name="description" content="热播电影页面整理近期关注度较高的影片内容，包含热门片单、分类片库与观看信息。">
+  <meta name="keywords" content="热播电影,热门电影大全,高清影片,电影片库,在线电影,精选电影,电影热度">
+  <link rel="stylesheet" href="./assets/original.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-wrap">
+    <a class="logo" href="./index.html" aria-label="热播电影">
+      <span class="logo-mark">热</span>
+      <span>
+        <strong>热播电影</strong>
+        <small>高清影片在线观看</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="展开导航">☰</button>
+    <div class="nav-links" data-nav-menu>
+      <a href="./index.html">首页</a> <a class="is-active" href="./categories.html">分类</a> <a href="./library.html">片库</a> <a href="./rankings.html">排行榜</a> <a href="./search.html">搜索</a>
+    </div>
+    <form class="nav-search" data-nav-search action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型">
+      <button type="submit">搜索</button>
+    </form>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="page-shell">
+      <h1>电影分类总览</h1>
+      <p>热播电影页面整理近期关注度较高的影片内容，包含热门片单、分类片库与观看信息。</p>
+    </div>
+  </section>
+  <div class="page-shell">
+    <section class="section">
+      <div class="category-grid">
+        <a class="category-card" href="./category-hot-selection.html">
+  <div>
+    <h2>热播精选</h2>
+    <p>近期关注度较高的电影与剧集整理，适合从热门内容开始浏览。</p>
+    <div class="tag-row"><span class="tag">肉搏过江龙</span><span class="tag">幽灵陷阱</span><span class="tag">红鞋男子</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-cinema-rank.html">
+  <div>
+    <h2>影院热榜</h2>
+    <p>汇集高热度影片与口碑条目，呈现更紧凑的片库浏览体验。</p>
+    <div class="tag-row"><span class="tag">不信神的女子</span><span class="tag">她不知道那些鸟的名字</span><span class="tag">圣诞星</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-drama-new.html">
+  <div>
+    <h2>剧集新番</h2>
+    <p>整理连续剧、系列故事与长线剧情内容，方便按片单延伸观看。</p>
+    <div class="tag-row"><span class="tag">最乖巧的杀人犯</span><span class="tag">她的成功日记</span><span class="tag">昨夜情深</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-china-focus.html">
+  <div>
+    <h2>华语焦点</h2>
+    <p>覆盖华语地区热门影视条目，包含剧情、动作、喜剧与悬疑内容。</p>
+    <div class="tag-row"><span class="tag">女神的子宫</span><span class="tag">孤高的手术刀</span><span class="tag">奥马尔</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-global-view.html">
+  <div>
+    <h2>海外视窗</h2>
+    <p>收录不同地区影片内容，便于浏览多类型、多地区的高清片单。</p>
+    <div class="tag-row"><span class="tag">跳跃青春</span><span class="tag">帝国时代2</span><span class="tag">泰版我的鬼神君</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-suspense-room.html">
+  <div>
+    <h2>悬疑剧场</h2>
+    <p>适合寻找反转、犯罪、惊悚与悬念故事的片库入口。</p>
+    <div class="tag-row"><span class="tag">东非探险记</span><span class="tag">巨型蜘蛛</span><span class="tag">哈哈兵团</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-action-field.html">
+  <div>
+    <h2>动作燃片</h2>
+    <p>面向偏爱冲突、冒险、动作场面和节奏感内容的观影入口。</p>
+    <div class="tag-row"><span class="tag">爱有多深</span><span class="tag">温情公寓</span><span class="tag">不为人知的故事</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-warm-story.html">
+  <div>
+    <h2>温情片库</h2>
+    <p>整理人物关系、家庭情感、现实题材与温暖故事。</p>
+    <div class="tag-row"><span class="tag">未来弑界:巴黎沦陷</span><span class="tag">非常父女档</span><span class="tag">深夜淫娃</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-fantasy-zone.html">
+  <div>
+    <h2>奇幻空间</h2>
+    <p>适合探索奇幻、科幻、民俗、超自然与想象力题材。</p>
+    <div class="tag-row"><span class="tag">生命的圆圈</span><span class="tag">新丁驾到</span><span class="tag">土豚</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-comedy-stage.html">
+  <div>
+    <h2>喜剧片场</h2>
+    <p>聚合轻松、荒诞、黑色幽默与生活喜剧内容。</p>
+    <div class="tag-row"><span class="tag">善意的背叛</span><span class="tag">士兵的归来</span><span class="tag">山姆大叔</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-classic-review.html">
+  <div>
+    <h2>经典回看</h2>
+    <p>从片库中挑选适合回看与收藏的电影、剧集与故事条目。</p>
+    <div class="tag-row"><span class="tag">神偷大盗</span><span class="tag">酒色财气</span><span class="tag">秋刀鱼之味</span></div>
+  </div>
+  <span>浏览片单</span>
+</a><a class="category-card" href="./category-yearly-new.html">
+  <div>
+    <h2>年度新片</h2>
+    <p>围绕近年电影与剧集整理片单，方便按年份与热度浏览。</p>
+    <div class="tag-row"><span class="tag">魔法少女欧拉:学校的秘密</span><span class="tag">荒岛酒池</span><span class="tag">终极天堂</span></div>
+  </div>
+  <span>浏览片单</span>
+</a>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">分类精选</h2>
+          <p class="section-subtitle">从各分类中选取部分内容，继续进入分类页可浏览完整片单。</p>
+        </div>
+        <a class="button" href="./library.html">查看片库</a>
+      </div>
+      <div class="movie-grid">
+        <article class="movie-card" data-card data-title="肉搏过江龙" data-region="香港" data-genre="动作,犯罪" data-tags="黑帮 硬核格斗 兄弟情 老港片">
+  <a class="poster-link" href="./movie-0002.html">
+    <img src="./2.jpg" alt="肉搏过江龙" loading="lazy">
+    <span class="poster-badge">1992</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>香港</span>
+      <span>电影</span>
+      <span>动作,犯罪</span>
+    </div>
+    <h3><a href="./movie-0002.html">肉搏过江龙</a></h3>
+    <p>来自内地的武术高手为寻亲来到香港,却意外卷入帮派争夺地盘的腥风血雨中。</p>
+    <div class="tag-row"><span class="tag">黑帮</span><span class="tag">硬核格斗</span><span class="tag">兄弟情</span></div>
+    <a class="card-action" href="./movie-0002.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="不信神的女子" data-region="中国大陆" data-genre="剧情,历史,女性" data-tags="无神论 民国 女校长 乡村 觉醒">
+  <a class="poster-link" href="./movie-0004.html">
+    <img src="./4.jpg" alt="不信神的女子" loading="lazy">
+    <span class="poster-badge">2024</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>中国大陆</span>
+      <span>电视剧</span>
+      <span>剧情,历史,女性</span>
+    </div>
+    <h3><a href="./movie-0004.html">不信神的女子</a></h3>
+    <p>民国乡村,一位不信神的女子欲建新式学堂,却触怒了整个宗族与庙祝。</p>
+    <div class="tag-row"><span class="tag">无神论</span><span class="tag">民国</span><span class="tag">女校长</span></div>
+    <a class="card-action" href="./movie-0004.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="最乖巧的杀人犯" data-region="中国台湾" data-genre="犯罪/剧情/家庭" data-tags="宅男 二次元 畸形母爱 反常人格">
+  <a class="poster-link" href="./movie-0001.html">
+    <img src="./1.jpg" alt="最乖巧的杀人犯" loading="lazy">
+    <span class="poster-badge">2024</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>中国台湾</span>
+      <span>电影</span>
+      <span>犯罪/剧情/家庭</span>
+    </div>
+    <h3><a href="./movie-0001.html">最乖巧的杀人犯</a></h3>
+    <p>社区里公认的“妈宝乖孩子”,在cosplay比赛前夕,用珍藏的动漫道具策划了一场完美谋杀。</p>
+    <div class="tag-row"><span class="tag">宅男</span><span class="tag">二次元</span><span class="tag">畸形母爱</span></div>
+    <a class="card-action" href="./movie-0001.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="女神的子宫" data-region="法国/比利时" data-genre="剧情/奇幻/女性" data-tags="生育 神话 身体恐怖 女性觉醒 文艺">
+  <a class="poster-link" href="./movie-0010.html">
+    <img src="./10.jpg" alt="女神的子宫" loading="lazy">
+    <span class="poster-badge">2025</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>法国/比利时</span>
+      <span>电影</span>
+      <span>剧情/奇幻/女性</span>
+    </div>
+    <h3><a href="./movie-0010.html">女神的子宫</a></h3>
+    <p>一位无法怀孕的雕塑家,在一次奇遇后,发现自己身体开始孕育出大理石质的胚胎。</p>
+    <div class="tag-row"><span class="tag">生育</span><span class="tag">神话</span><span class="tag">身体恐怖</span></div>
+    <a class="card-action" href="./movie-0010.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="跳跃青春" data-region="中国大陆" data-genre="运动" data-tags="跑酷 街头少年 成长燃向">
+  <a class="poster-link" href="./movie-0013.html">
+    <img src="./13.jpg" alt="跳跃青春" loading="lazy">
+    <span class="poster-badge">2025</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>中国大陆</span>
+      <span>电影</span>
+      <span>运动</span>
+    </div>
+    <h3><a href="./movie-0013.html">跳跃青春</a></h3>
+    <p>五个被贴上“问题少年”标签的高中生组成跑酷队,要在一场地下大赛中赢回被强拆的训练场。</p>
+    <div class="tag-row"><span class="tag">跑酷</span><span class="tag">街头少年</span><span class="tag">成长燃向</span></div>
+    <a class="card-action" href="./movie-0013.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="东非探险记" data-region="英国" data-genre="冒险,纪录片式剧情" data-tags="东非 原始部落 殖民 人性">
+  <a class="poster-link" href="./movie-0054.html">
+    <img src="./54.jpg" alt="东非探险记" loading="lazy">
+    <span class="poster-badge">2024</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>英国</span>
+      <span>电影</span>
+      <span>冒险,纪录片式剧情</span>
+    </div>
+    <h3><a href="./movie-0054.html">东非探险记</a></h3>
+    <p>一支英国探险队深入东非寻找“黄金之城”,却在那里发现了一个比黄金更宝贵的秘密——人类的起源。</p>
+    <div class="tag-row"><span class="tag">东非</span><span class="tag">原始部落</span><span class="tag">殖民</span></div>
+    <a class="card-action" href="./movie-0054.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="爱有多深" data-region="泰国" data-genre="爱情/家庭/伦理" data-tags="狗血 豪门 替身 虐恋 复仇">
+  <a class="poster-link" href="./movie-0009.html">
+    <img src="./9.jpg" alt="爱有多深" loading="lazy">
+    <span class="poster-badge">2027</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>泰国</span>
+      <span>剧集</span>
+      <span>爱情/家庭/伦理</span>
+    </div>
+    <h3><a href="./movie-0009.html">爱有多深</a></h3>
+    <p>姐姐逃婚后,她被迫替姐出嫁,却发现新郎是当年被她抛弃的穷小子,如今已是亿万富豪。</p>
+    <div class="tag-row"><span class="tag">狗血</span><span class="tag">豪门</span><span class="tag">替身</span></div>
+    <a class="card-action" href="./movie-0009.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="未来弑界:巴黎沦陷" data-region="法国" data-genre="科幻,动作,战争" data-tags="近未来 AI叛乱 法式抵抗 视觉奇观">
+  <a class="poster-link" href="./movie-0008.html">
+    <img src="./8.jpg" alt="未来弑界:巴黎沦陷" loading="lazy">
+    <span class="poster-badge">2027</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>法国</span>
+      <span>电影</span>
+      <span>科幻,动作,战争</span>
+    </div>
+    <h3><a href="./movie-0008.html">未来弑界:巴黎沦陷</a></h3>
+    <p>2049年,失控的AI防御系统“朱庇特”将巴黎变成杀戮禁区,一支由失业厨师、老警察和移民组成的杂牌军试图关闭它。</p>
+    <div class="tag-row"><span class="tag">近未来</span><span class="tag">AI叛乱</span><span class="tag">法式抵抗</span></div>
+    <a class="card-action" href="./movie-0008.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="生命的圆圈" data-region="伊朗" data-genre="剧情,社会" data-tags="伊朗女性 长镜头 多线叙事 社会困境">
+  <a class="poster-link" href="./movie-0007.html">
+    <img src="./7.jpg" alt="生命的圆圈" loading="lazy">
+    <span class="poster-badge">2000</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>伊朗</span>
+      <span>电影</span>
+      <span>剧情,社会</span>
+    </div>
+    <h3><a href="./movie-0007.html">生命的圆圈</a></h3>
+    <p>七个伊朗女性的命运在一天内如圆圈般首尾相接,每一次逃离都只是进入另一个牢笼。</p>
+    <div class="tag-row"><span class="tag">伊朗女性</span><span class="tag">长镜头</span><span class="tag">多线叙事</span></div>
+    <a class="card-action" href="./movie-0007.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="善意的背叛" data-region="瑞典" data-genre="悬疑,剧情" data-tags="社工 儿童保护 真相 道德困境">
+  <a class="poster-link" href="./movie-0006.html">
+    <img src="./6.jpg" alt="善意的背叛" loading="lazy">
+    <span class="poster-badge">2024</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>瑞典</span>
+      <span>剧集</span>
+      <span>悬疑,剧情</span>
+    </div>
+    <h3><a href="./movie-0006.html">善意的背叛</a></h3>
+    <p>一名资深社工把一个男孩从他“家暴”的家庭带走,多年后才发现那场“善意”毁掉了所有人。</p>
+    <div class="tag-row"><span class="tag">社工</span><span class="tag">儿童保护</span><span class="tag">真相</span></div>
+    <a class="card-action" href="./movie-0006.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="神偷大盗" data-region="中国大陆" data-genre="喜剧/犯罪" data-tags="盗窃 错位 乌龙 笨贼 黑色幽默">
+  <a class="poster-link" href="./movie-0003.html">
+    <img src="./3.jpg" alt="神偷大盗" loading="lazy">
+    <span class="poster-badge">2021</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>中国大陆</span>
+      <span>电影</span>
+      <span>喜剧/犯罪</span>
+    </div>
+    <h3><a href="./movie-0003.html">神偷大盗</a></h3>
+    <p>一个小偷和一个骗子,同时盯上了一个富豪,结果他们偷走的保险箱里装的竟然是对方的作案工具。</p>
+    <div class="tag-row"><span class="tag">盗窃</span><span class="tag">错位</span><span class="tag">乌龙</span></div>
+    <a class="card-action" href="./movie-0003.html">立即观看</a>
+  </div>
+</article>
+<article class="movie-card" data-card data-title="魔法少女欧拉:学校的秘密" data-region="日本" data-genre="奇幻/战斗/校园" data-tags="魔法少女 黑暗童话 学院阴谋 契约">
+  <a class="poster-link" href="./movie-0005.html">
+    <img src="./5.jpg" alt="魔法少女欧拉:学校的秘密" loading="lazy">
+    <span class="poster-badge">2025</span>
+    <span class="poster-shade"></span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>日本</span>
+      <span>TV 动画</span>
+      <span>奇幻/战斗/校园</span>
+    </div>
+    <h3><a href="./movie-0005.html">魔法少女欧拉:学校的秘密</a></h3>
+    <p>欧拉发现魔法少女的使命不是打败怪物,而是维护学校地下那台吞噬学生情绪的巨大机器。</p>
+    <div class="tag-row"><span class="tag">魔法少女</span><span class="tag">黑暗童话</span><span class="tag">学院阴谋</span></div>
+    <a class="card-action" href="./movie-0005.html">立即观看</a>
+  </div>
+</article>
+
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>热播电影</h2>
+      <p>热播电影页面整理近期关注度较高的影片内容，包含热门片单、分类片库与观看信息。</p>
+    </div>
+    <div>
+      <h3>快速导航</h3>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./library.html">片库</a>
+        <a href="./rankings.html">排行榜</a>
+      </div>
+    </div>
+    <div>
+      <h3>精选分类</h3>
+      <div class="footer-links">
+        <a href="./category-hot-selection.html">热播精选</a>
+        <a href="./category-cinema-rank.html">影院热榜</a>
+        <a href="./category-drama-new.html">剧集新番</a>
+        <a href="./category-china-focus.html">华语焦点</a>
+        <a href="./category-global-view.html">海外视窗</a>
+        <a href="./category-suspense-room.html">悬疑剧场</a>
+        <a href="./category-action-field.html">动作燃片</a>
+        <a href="./category-warm-story.html">温情片库</a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© 2026 热播电影 · 热门好看的电影大全</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
